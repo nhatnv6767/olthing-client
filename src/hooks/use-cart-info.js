@@ -18,10 +18,9 @@ const useCartInfo = () => {
       total: 0,
       quantity: 0,
     })
-
     setQuantity(cart.quantity)
     setTotal(cart.total)
-  })
+  }, [cart_products])
   return {
     quantity,
     total,
