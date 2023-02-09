@@ -23,17 +23,16 @@ const notifyError = (message) =>
     progress: undefined,
   })
 
-<ToastContainer
-  position="top-center"
-  autoClose=3000
-  hideProgressBar=false
-  newestOnTop=false
-  closeOnClick
-  rtl=false
-  pauseOnFocusLoss
-  draggable
-  pauseOnHover
-/>
-
+  <ToastContainer
+position="top-center"
+autoClose={3000}
+hideProgressBar={false}
+newestOnTop={false}
+closeOnClick
+rtl={false}
+pauseOnFocusLoss
+draggable
+pauseOnHover
+/>;
 
 export { ToastContainer, notifySuccess, notifyError }
