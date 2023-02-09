@@ -9,7 +9,7 @@ if (typeof window !== 'undefined') {
   require('bootstrap/dist/js/bootstrap')
 }
 
-export default function App ({ Component, pageProps }) {
+export default function MyApp ({ Component, pageProps }) {
   return (
     <Provider store={store}>
       <Component {...pageProps} />
