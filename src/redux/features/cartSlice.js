@@ -1,5 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit'
-import { notifyError, notifySuccess } from ''
+import { notifySuccess, notifyError } from '@utils/toast'
 
 const initialState = {
   cart_products: [],

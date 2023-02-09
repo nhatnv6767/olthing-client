@@ -25,14 +25,15 @@ const notifyError = (message) =>
 
 <ToastContainer
   position="top-center"
-  autoClose={3000}
-  hideProgressBar={false}
-  newestOnTop={false}
+  autoClose=3000
+  hideProgressBar=false
+  newestOnTop=false
   closeOnClick
-  rtl={false}
+  rtl=false
   pauseOnFocusLoss
   draggable
   pauseOnHover
 />
+
 
 export { ToastContainer, notifySuccess, notifyError }
